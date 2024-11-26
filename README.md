@@ -1,12 +1,11 @@
-<html><h1>Introduction</h1>
+<html>
+<h1>Data Job Analysis Using SQL</h1>
+<h2>Introduction</h2>
 📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
-🔍 SQL queries? Check them out here: project_sql folder
 
-<h2>Background/h2
+<h2>Background/h2>
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
-
-Data hails from my SQL Course. It's packed with insights on job titles, salaries, locations, and essential skills.
 
 The questions I wanted to answer through my SQL queries were:
 What are the top-paying data analyst jobs?
@@ -14,17 +13,15 @@ What skills are required for these top-paying jobs?
 What skills are most in demand for data analysts?
 Which skills are associated with higher salaries?
 What are the most optimal skills to learn?
-Tools I Used
-For my deep dive into the data analyst job market, I harnessed the power of several key tools:
 
+<h2Tools I Used
 SQL: The backbone of my analysis, allowing me to query the database and unearth critical insights.
 PostgreSQL: The chosen database management system, ideal for handling the job posting data.
 Visual Studio Code: My go-to for database management and executing SQL queries.
 Git & GitHub: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
-The Analysis
-Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
 
-<h2>1. Top Paying Data Analyst Jobs/h2
+<h2>The Analysis</h2>
+<h3>1. Top Paying Data Analyst Jobs</h3>
 To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying opportunities in the field.
 
 SELECT	
@@ -52,7 +49,7 @@ Diverse Employers: Companies like SmartAsset, Meta, and AT&T are among those off
 Job Title Variety: There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 Top Paying Roles Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results
 
-<h2>2. Skills for Top Paying Jobs/h2
+<h3>2. Skills for Top Paying Jobs</h3>
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
 
 WITH top_paying_jobs AS (
@@ -88,7 +85,7 @@ Python follows closely with a bold count of 7.
 Tableau is also highly sought after, with a bold count of 6. Other skills like R, Snowflake, Pandas, and Excel show varying degrees of demand.
 Top Paying Skills Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; ChatGPT generated this graph from my SQL query results
 
-<h2>3. In-Demand Skills for Data Analysts/h2
+<h3>3. In-Demand Skills for Data Analysts</h3>
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.
 
 SELECT 
@@ -117,7 +114,7 @@ Tableau	3745
 Power BI	2609
 Table of the demand for the top 5 skills in data analyst job postings
 
-<h2>4. Skills Based on Salary/h2
+<h3>4. Skills Based on Salary</h3>
 Exploring the average salaries associated with different skills revealed which skills are the highest paying.
 
 SELECT 
@@ -153,7 +150,7 @@ pandas	151,821
 elasticsearch	145,000
 Table of the average salary for the top 10 paying skills for data analysts
 
-<h2>5. Most Optimal Skills to Learn/h2
+<h3>5. Most Optimal Skills to Learn</h2>
 Combining insights from demand and salary data, this query aimed to pinpoint skills that are both in high demand and have high salaries, offering a strategic focus for skill development.
 
 SELECT 
@@ -198,38 +195,4 @@ Database Technologies: The demand for skills in traditional and NoSQL databases 
 What I Learned
 Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
 
-🧩 Complex Query Crafting: Mastered the art of advanced SQL, merging tables like a pro and wielding WITH clauses for ninja-level temp table maneuvers.
-📊 Data Aggregation: Got cozy with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarizing sidekicks.
-💡 Analytical Wizardry: Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
-Conclusions
-Insights
-From the analysis, several general insights emerged:
-
-Top-Paying Data Analyst Jobs: The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at $650,000!
-Skills for Top-Paying Jobs: High-paying data analyst jobs require advanced proficiency in SQL, suggesting it’s a critical skill for earning a top salary.
-Most In-Demand Skills: SQL is also the most demanded skill in the data analyst job market, thus making it essential for job seekers.
-Skills with Higher Salaries: Specialized skills, such as SVN and Solidity, are associated with the highest average salaries, indicating a premium on niche expertise.
-Optimal Skills for Job Market Value: SQL leads in demand and offers for a high average salary, positioning it as one of the most optimal skills for data analysts to learn to maximize their market value.
-Closing Thoughts
-This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
-
-About
-My 'SQL for Data Analytics' course on YouTube
-
-www.lukebarousse.com/sql
-Resources
- Readme
- Activity
-Stars
- 53 stars
-Watchers
- 2 watching
-Forks
- 37 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Footer
-/html
+</html>
