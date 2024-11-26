@@ -14,7 +14,7 @@ What skills are most in demand for data analysts?
 Which skills are associated with higher salaries?
 What are the most optimal skills to learn?
 
-<h2Tools I Used
+<h2>Tools I Used</h2>
 SQL: The backbone of my analysis, allowing me to query the database and unearth critical insights.
 PostgreSQL: The chosen database management system, ideal for handling the job posting data.
 Visual Studio Code: My go-to for database management and executing SQL queries.
