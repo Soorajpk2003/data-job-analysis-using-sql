@@ -196,3 +196,20 @@ What I Learned
 Throughout this adventure, I've turbocharged my SQL toolkit with some serious firepower:
 
 </html>
+
+
+--------------
+
+## Top Paying Data Analyst Jobs
+
+To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field.
+
+```sql
+SELECT job_id, job_title, job_location, job_schedule_type, salary_year_avg, job_posted_date, name AS company_name 
+FROM job_postings_fact 
+LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id 
+WHERE job_title_short = 'Data Analyst' 
+  AND job_location = 'Anywhere' 
+  AND salary_year_avg IS NOT NULL 
+ORDER BY salary_year_avg DESC 
+LIMIT 10;
